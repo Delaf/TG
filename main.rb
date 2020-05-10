@@ -1,6 +1,7 @@
 require 'telegram/bot'
+require 'dotenv/load'
 
-token = ENV['TELEGRAM_BOT_API_KEY']
+token = ENV['TELEGRAM_BOT_API_KEY'].freeze
 
 Telegram::Bot::Client.run(token) do |bot|
   bot.listen do |message|
