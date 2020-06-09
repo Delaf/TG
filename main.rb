@@ -1,5 +1,4 @@
 require 'telegram/bot'
-require 'dotenv/load'
 
 token = ENV['1256536550:AAHdvWTfNzgHZnSS_geuVowGW5Q1XvpisCQ']
 
